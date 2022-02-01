@@ -28,7 +28,7 @@ DEBUG = True
 
 # <HINT> add your cloud host here
 ALLOWED_HOSTS = ["localhost","127.0.0.1",
-        "onlinecourse.us-south.cf.appdomain.cloud"]
+        "onlinecourse-space.us-south.cf.appdomain.cloud"]
 
 
 # Application definition

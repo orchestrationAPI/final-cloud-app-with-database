@@ -1,13 +1,13 @@
   applications:
-  - name: onlinecourse
+  - name: onlinecourse-space
     routes:
-      - route: onlinecourse.us-south.cf.appdomain.cloud
+      - route: onlinecourse-space.us-south.cf.appdomain.cloud
     memory: 128M
     buildpacks: 
      - python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: onlinecourse.us-south.cf.appdomain.cloud/static
+      - route: onlinecourse-space.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpacks: 
      - staticfile_buildpack
